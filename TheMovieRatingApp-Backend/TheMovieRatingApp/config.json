@@ -1,0 +1,5 @@
+﻿{
+  "ConnectionStrings": {
+    "MovieConnectionString": "server=localhost;user id=root;database=MovieDatabase;password=123456;"
+  }
+}

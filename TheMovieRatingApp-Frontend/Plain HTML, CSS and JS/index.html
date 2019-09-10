@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Lakki+Reddy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/index.css">
+    <script type="text/javascript" src="js/index.js"></script>
+    <title>The Movie Rating App</title>
+</head>
+<body>
+    <div class = "overlay" id = "overlay-id">
+        <span class="closeBtn" onclick="closeImageDetails()">&times;</span>
+        <div class = "movieDetails" id = "movieDetails-id">
+        </div>
+    </div>
+    <h1>The Movie Rating App</h1>
+    <div class = "sort-movies">
+        <label>Sort by</label>
+        <select id="thisId" onchange="sortMovies(this.options[this.selectedIndex].value)">
+            <option value="" disabled selected>Select your option</option>
+            <option value = "sort1">Alphabetic</option>
+            <option value = "sort2">Year</option>
+        </select>
+        <input type="checkbox" name ="fav">Favorites<br>
+    </div>
+    <div class = "movie-container" id = "movie-container-id"></div>
+</body>
+</html>
