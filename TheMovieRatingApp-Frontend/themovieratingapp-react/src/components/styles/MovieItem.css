@@ -1,0 +1,26 @@
+.imageItem {
+  width: 150px;
+  height: auto;
+}
+
+.imageItem:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+}
+
+h3 {
+  font-size: 15px;
+  color: antiquewhite;
+}
+
+.itemRating {
+  font-size: 10px;
+  color: lightblue;
+}
+
+.movieItem {
+  text-align: center;
+  flex-basis: 0;
+  flex: 1 1 0;
+  background-color: rgba(192, 192, 192, 0.3);
+}

@@ -1,0 +1,39 @@
+.theModal {
+  opacity: 0.95;
+}
+
+.modalHeader {
+  background-color: lightblue;
+}
+
+.modalBody {
+  background-color: darkslategray;
+}
+.modalBox {
+  display: flex;
+}
+
+.modalGenreBox {
+  display: flex;
+  justify-content: space-around;
+}
+
+.modalImage {
+  width: 180px;
+  height: auto;
+}
+
+.modalText {
+  color: antiquewhite;
+  float: left;
+  padding: 10px;
+}
+
+.modalActorBox {
+  display: flex;
+  justify-content: space-around;
+}
+
+.modalActors {
+  font-size: 20px;
+}
